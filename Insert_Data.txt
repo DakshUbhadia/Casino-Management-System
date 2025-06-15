@@ -1,0 +1,239 @@
+-- Insert data into Customer table
+INSERT INTO Customer (Customer_ID, Customer_Name, Registration_Date, Aadhar_No, Loyalty_Point, Wallet_Balance, Phone_No, Email_ID, Address)
+VALUES
+(1, 'Rahul Sharma', '2023-01-15', 123456789012, 150, 5000.00, '+919876543210', 'rahul.sharma@email.com', '12 MG Road, Mumbai'),
+(2, 'Priya Patel', '2023-02-20', 234567890123, 75, 2500.50, '+919765432109', 'priya.patel@email.com', '34 Brigade Road, Bangalore'),
+(3, 'Amit Singh', '2023-03-10', 345678901234, 200, 10000.00, '+919654321098', 'amit.singh@email.com', '56 Park Street, Kolkata'),
+(4, 'Neha Gupta', '2023-04-05', 456789012345, 50, 1500.75, '+919543210987', 'neha.gupta@email.com', '78 Connaught Place, Delhi'),
+(5, 'Vikram Joshi', '2023-05-12', 567890123456, 300, 20000.00, '+919432109876', 'vikram.joshi@email.com', '90 Jubilee Hills, Hyderabad'),
+(6, 'Ananya Reddy', '2023-06-18', 678901234567, 180, 7500.25, '+919321098765', 'ananya.reddy@email.com', '45 Banjara Hills, Hyderabad'),
+(7, 'Rohan Malhotra', '2023-07-22', 789012345678, 90, 3500.00, '+919210987654', 'rohan.malhotra@email.com', '23 Sector 18, Noida'),
+(8, 'Divya Iyer', '2023-08-05', 890123456789, 220, 12000.50, '+919109876543', 'divya.iyer@email.com', '67 Anna Salai, Chennai'),
+(9, 'Karthik Nair', '2023-09-11', 901234567890, 110, 4500.75, '+919098765432', 'karthik.nair@email.com', '89 MG Road, Kochi'),
+(10, 'Pooja Mehta', '2023-10-15', 123456780912, 70, 2800.00, '+919987654321', 'pooja.mehta@email.com', '12 Law Garden, Ahmedabad'),
+(11, 'Suresh Choudhary', '2023-11-20', 234567809123, 240, 15000.00, '+919876543219', 'suresh.choudhary@email.com', '34 Civil Lines, Jaipur'),
+(12, 'Deepika Verma', '2023-12-25', 345678091234, 60, 3200.50, '+919765432198', 'deepika.verma@email.com', '56 Gomti Nagar, Lucknow'),
+(13, 'Vivek Agarwal', '2024-01-03', 456780912345, 190, 8500.00, '+919654321987', 'vivek.agarwal@email.com', '78 Salt Lake, Kolkata'),
+(14, 'Shweta Desai', '2024-02-14', 567809123456, 130, 5200.25, '+919543219876', 'shweta.desai@email.com', '90 Koregaon Park, Pune'),
+(15, 'Aditya Kapoor', '2024-03-21', 678091234567, 270, 18000.75, '+919432198765', 'aditya.kapoor@email.com', '23 Bandra West, Mumbai');
+
+-- Insert data into Employee table
+INSERT INTO Employee (Employee_ID, Employee_Type, Name, Salary, Shift_Start, Shift_End, Gender, DOB, Address)
+VALUES
+(101, 'Dealer', 'Arun Kumar', 45000.00, '08:00:00', '16:00:00', 'Male', '1990-05-15', '123 Residency Road, Bangalore'),
+(102, 'Support Staff', 'Meena Devi', 35000.00, '16:00:00', '00:00:00', 'Female', '1992-08-22', '45 Malleshwaram, Bangalore'),
+(103, 'Security', 'Ramesh Patel', 40000.00, '00:00:00', '08:00:00', 'Male', '1988-11-30', '67 Indiranagar, Bangalore'),
+(104, 'Software Engineers', 'Sneha Reddy', 120000.00, NULL, NULL, 'Female', '1995-03-18', '89 Koramangala, Bangalore'),
+(105, 'Accountants / Finance Officers', 'Rajesh Iyer', 90000.00, NULL, NULL, 'Male', '1985-07-25', '23 Whitefield, Bangalore'),
+(106, 'Dealer', 'Priyanka Sharma', 48000.00, '16:00:00', '00:00:00', 'Female', '1991-04-12', '34 Brigade Road, Bangalore'),
+(107, 'Legal Advisors', 'Vikram Joshi', 150000.00, NULL, NULL, 'Male', '1982-09-28', '56 Richmond Town, Bangalore'),
+(108, 'DevOps Engineers', 'Anjali Gupta', 130000.00, NULL, NULL, 'Female', '1993-07-15', '78 Jayanagar, Bangalore'),
+(109, 'Support Staff', 'Sunil Rao', 38000.00, '08:00:00', '16:00:00', 'Male', '1994-11-03', '12 Ulsoor, Bangalore'),
+(110, 'Security', 'Lakshmi Menon', 42000.00, '00:00:00', '08:00:00', 'Female', '1989-06-20', '45 Basavanagudi, Bangalore'),
+(111, 'Digital Marketing Specialists', 'Rahul Khanna', 95000.00, NULL, NULL, 'Male', '1990-12-25', '67 HSR Layout, Bangalore'),
+(112, 'Product Managers', 'Neha Chawla', 160000.00, NULL, NULL, 'Female', '1987-03-08', '89 Bellandur, Bangalore'),
+(113, 'Dealer', 'Sanjay Verma', 47000.00, '00:00:00', '08:00:00', 'Male', '1992-05-17', '23 Marathahalli, Bangalore'),
+(114, 'Accountants / Finance Officers', 'Pooja Srinivasan', 92000.00, NULL, NULL, 'Female', '1986-10-31', '34 Electronic City, Bangalore'),
+(115, 'Software Engineers', 'Arvind Nair', 125000.00, NULL, NULL, 'Male', '1994-02-14', '56 Sarjapur Road, Bangalore');
+
+-- Insert data into Games table
+INSERT INTO Games (Game_ID, Game_Name, Max_Players, Min_Players, Payout_Rate)
+VALUES
+(1, 'Poker', 8, 2, 95.50),
+(2, 'Blackjack', 7, 1, 98.20),
+(3, 'Roulette', 12, 1, 94.75),
+(4, 'Baccarat', 14, 1, 96.30),
+(5, 'Slot Machine', 1, 1, 92.10),
+(6, 'Texas Hold''em', 10, 2, 96.80),
+(7, 'Craps', 20, 1, 94.50),
+(8, 'Pai Gow Poker', 6, 1, 97.25),
+(9, 'Three Card Poker', 7, 1, 97.10),
+(10, 'Caribbean Stud', 7, 1, 95.90),
+(11, 'Sic Bo', 15, 1, 93.75),
+(12, 'Keno', 1, 1, 90.50),
+(13, 'Bingo', 100, 5, 92.80),
+(14, 'Video Poker', 1, 1, 98.40),
+(15, 'Let It Ride', 7, 1, 96.20);
+
+-- Insert data into Game_Type table
+INSERT INTO Game_Type (Game_Type, Game_ID)
+VALUES
+('Card Games', 1),  -- Poker
+('Card Games', 2),  -- Blackjack
+('Roulette', 3),    -- Roulette
+('Baccarat', 4),    -- Baccarat
+('Slot Games', 5),  -- Slot Machine
+('Card Games', 6),  -- Texas Hold'em
+('Table & Dice Games', 7),  -- Craps
+('Card Games', 8),  -- Pai Gow Poker
+('Card Games', 9),  -- Three Card Poker
+('Card Games', 10), -- Caribbean Stud
+('Table & Dice Games', 11), -- Sic Bo
+('Number Games', 12), -- Keno
+('Number Games', 13), -- Bingo
+('Slot Games', 14),  -- Video Poker
+('Board Games', 15); -- Let It Ride
+
+-- Insert data into Transaction table
+INSERT INTO Transactions (Transaction_ID, Transaction_Type, Amount, Timestamp, Customer_ID, Deposit_Withdrawal)
+VALUES
+(1001, 'Credit/Debit Cards', 10000.00, '2023-06-01 14:30:00', 1, 'Deposit'),
+(1002, 'E-Wallets', 5000.00, '2023-06-02 16:45:00', 2, 'Deposit'),
+(1003, 'Bank Transfers', 20000.00, '2023-06-03 11:15:00', 3, 'Deposit'),
+(1004, 'Cryptocurrencies', 7500.00, '2023-06-04 20:20:00', 4, 'Deposit'),
+(1005, 'Mobile Payments', 3000.00, '2023-06-05 09:30:00', 5, 'Deposit'),
+(1006, 'Credit/Debit Cards', 5000.00, '2023-06-06 18:00:00', 1, 'Withdrawal'),
+(1007, 'E-Wallets', 2000.00, '2023-06-07 22:15:00', 3, 'Withdrawal'),
+(1008, 'E-Wallets', 3000.00, '2023-06-14 10:30:00', 6, 'Deposit'),
+(1009, 'Bank Transfers', 8000.00, '2023-06-15 14:20:00', 7, 'Deposit'),
+(1010, 'Credit/Debit Cards', 4500.00, '2023-06-16 18:45:00', 8, 'Deposit'),
+(1011, 'Mobile Payments', 2000.00, '2023-06-17 11:15:00', 9, 'Deposit'),
+(1012, 'E-Wallets', 6000.00, '2023-06-18 16:30:00', 10, 'Deposit'),
+(1013, 'Bank Transfers', 12000.00, '2023-06-19 20:00:00', 11, 'Deposit'),
+(1014, 'Credit/Debit Cards', 3500.00, '2023-06-20 09:45:00', 12, 'Deposit'),
+(1015, 'Mobile Payments', 5000.00, '2023-06-21 13:20:00', 13, 'Deposit'),
+(1016, 'E-Wallets', 7000.00, '2023-06-22 17:10:00', 14, 'Deposit'),
+(1017, 'Bank Transfers', 9000.00, '2023-06-23 21:30:00', 15, 'Deposit'),
+(1018, 'E-Wallets', 1500.00, '2023-06-24 12:45:00', 6, 'Withdrawal'),
+(1019, 'Credit/Debit Cards', 2500.00, '2023-06-25 19:20:00', 8, 'Withdrawal'),
+(1020, 'Mobile Payments', 1000.00, '2023-06-26 10:15:00', 10, 'Withdrawal');
+
+-- Insert data into Participation_Table
+INSERT INTO Participation_Table (Table_ID, Participant_ID, Bet_Amount, Start_Time, Customer_ID, Game_ID, Employee_ID)
+VALUES
+('T1', 1, 1000.00, '2023-06-01 15:00:00', 1, 1, 101),
+('T1', 2, 500.00, '2023-06-01 15:00:00', 2, 1, 101),
+('T2', 1, 2000.00, '2023-06-02 17:00:00', 3, 2, 101),
+('T3', 1, 1500.00, '2023-06-03 12:00:00', 4, 3, 101),
+('T4', 1, 3000.00, '2023-06-04 21:00:00', 5, 4, 101),
+('T5', 1, 500.00, '2023-06-05 10:00:00', 1, 5, 101),
+('T6', 1, 1200.00, '2023-06-06 16:30:00', 2, 2, 101),
+('T6', 2, 800.00, '2023-06-06 16:30:00', 3, 2, 101),
+('T7', 1, 2500.00, '2023-06-07 14:45:00', 4, 3, 101),
+('T8', 1, 1800.00, '2023-06-08 20:15:00', 5, 1, 101),
+('T9', 1, 700.00, '2023-06-09 11:30:00', 1, 5, 101),
+('T10', 1, 2200.00, '2023-06-10 19:00:00', 2, 4, 101),
+('T10', 2, 1500.00, '2023-06-10 19:00:00', 3, 4, 101),
+('T11', 1, 900.00, '2023-06-11 13:20:00', 4, 2, 101),
+('T12', 1, 3500.00, '2023-06-12 22:10:00', 5, 3, 101),
+('T13', 1, 600.00, '2023-06-13 10:45:00', 1, 5, 101),
+('T14', 1, 800.00, '2023-06-14 14:00:00', 6, 6, 106),
+('T15', 1, 1200.00, '2023-06-15 18:30:00', 7, 7, 106),
+('T16', 1, 3000.00, '2023-06-16 21:45:00', 8, 8, 106),
+('T17', 1, 500.00, '2023-06-17 11:20:00', 9, 9, 106),
+('T18', 1, 1800.00, '2023-06-18 16:50:00', 10, 10, 106),
+('T19', 1, 2200.00, '2023-06-19 20:15:00', 11, 11, 106),
+('T20', 1, 700.00, '2023-06-20 10:30:00', 12, 12, 106),
+('T21', 1, 1500.00, '2023-06-21 14:45:00', 13, 13, 106),
+('T22', 1, 2500.00, '2023-06-22 19:00:00', 14, 14, 106),
+('T23', 1, 900.00, '2023-06-23 22:15:00', 15, 15, 106),
+('T24', 1, 1100.00, '2023-06-24 12:30:00', 6, 1, 106),
+('T25', 1, 3200.00, '2023-06-25 17:45:00', 7, 2, 106),
+('T26', 1, 800.00, '2023-06-26 21:00:00', 8, 3, 106),
+('T27', 1, 1400.00, '2023-06-27 10:15:00', 9, 4, 106),
+('T28', 1, 600.00, '2023-06-28 15:30:00', 10, 5, 106);
+
+
+-- Update existing participation records to include more employees
+UPDATE Participation_Table SET Employee_ID = 101 WHERE Table_ID IN ('T1','T2','T3','T4','T5');
+UPDATE Participation_Table SET Employee_ID = 106 WHERE Table_ID IN ('T6','T7','T8','T9','T10');
+UPDATE Participation_Table SET Employee_ID = 113 WHERE Table_ID IN ('T11','T12','T13','T14','T15');
+UPDATE Participation_Table SET Employee_ID = 101 WHERE Table_ID IN ('T16','T17','T18');
+UPDATE Participation_Table SET Employee_ID = 106 WHERE Table_ID IN ('T19','T20','T21');
+UPDATE Participation_Table SET Employee_ID = 113 WHERE Table_ID IN ('T22','T23','T24');
+UPDATE Participation_Table SET Employee_ID = 101 WHERE Table_ID IN ('T25','T26','T27','T28');
+
+
+-- Insert data into Game_Outcome_R1
+INSERT INTO Game_Outcome_R1 (Table_ID, Participant_ID, Amount)
+VALUES
+('T1', 1, 1500),
+('T1', 2, 0),
+('T2', 1, 3800),
+('T3', 1, 0),
+('T4', 1, 4500),
+('T5', 1, 0),
+('T6', 1, 2000),
+('T6', 2, 0),
+('T7', 1, 0),
+('T8', 1, 2700),
+('T9', 1, 0),
+('T10', 1, 3300),
+('T10', 2, 0),
+('T11', 1, 1350),
+('T12', 1, 0),
+('T13', 1, 900),
+('T14', 1, 1200),
+('T15', 1, 0),
+('T16', 1, 4500),
+('T17', 1, 0),
+('T18', 1, 2700),
+('T19', 1, 0),
+('T20', 1, 1050),
+('T21', 1, 0),
+('T22', 1, 3750),
+('T23', 1, 0),
+('T24', 1, 1650),
+('T25', 1, 0),
+('T26', 1, 1200),
+('T27', 1, 0),
+('T28', 1, 900);
+
+-- Insert data into Game_Outcome_R2
+INSERT INTO Game_Outcome_R2 (Transaction_ID, Amount)
+VALUES
+(1006, 5000.00),
+(1007, 2000.00),
+(1001, 7000.00),
+(1005, 2500.00),
+(1003, 4000.00),
+(1002, 3000.00),
+(1004, 5000.00);
+
+-- Insert data into Customer_Support
+INSERT INTO Customer_Support (Complain_ID, Issue_Description, Status, Employee_ID, Customer_ID)
+VALUES
+(501, 'Unable to withdraw winnings', FALSE, 102, 1),
+(502, 'Game froze during play', TRUE, 102, 3),
+(503, 'Account verification issue', FALSE, 102, 4),
+(504, 'Unauthorized transaction', TRUE, 102, 2),
+(505, 'Forgot password', TRUE, 102, 5),
+(506, 'Deposit not credited to account', FALSE, 102, 6),
+(507, 'Suspected game malfunction in Blackjack', TRUE, 102, 7),
+(508, 'Request for account statement', FALSE, 102, 8),
+(509, 'Unable to change email address', TRUE, 102, 9),
+(510, 'Two-factor authentication not working', FALSE, 102, 10),
+(511, 'Game loading slowly', TRUE, 109, 11),
+(512, 'Withdrawal processing time', FALSE, 109, 12),
+(513, 'Account locked', TRUE, 109, 13),
+(514, 'Bonus not credited', FALSE, 109, 14),
+(515, 'Game rules clarification', TRUE, 109, 15),
+(516, 'Deposit limit change request', FALSE, 109, 1),
+(517, 'Self-exclusion request', TRUE, 109, 2),
+(518, 'Responsible gambling information', FALSE, 109, 3),
+(519, 'Technical issue in mobile app', TRUE, 109, 4),
+(520, 'Loyalty points calculation', FALSE, 109, 5);
+
+-- Insert data into Issue
+INSERT INTO Issue (Complain_ID, Issue_Type)
+VALUES
+(501, 'Payment'),
+(502, 'Game'),
+(503, 'Account'),
+(504, 'Payment'),
+(505, 'Account'),
+(506, 'Payment'),
+(507, 'Game'),
+(508, 'Account'),
+(509, 'Account'),
+(510, 'Other'),
+(511, 'Game'),
+(512, 'Payment'),
+(513, 'Account'),
+(514, 'Cyberbullying'),
+(515, 'Game'),
+(516, 'Account'),
+(517, 'Account'),
+(518, 'Other'),
+(519, 'Payment'),
+(520, 'Cyberbullying');
