@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS Customer (
     Loyalty_Point INT DEFAULT 0 CHECK (Loyalty_Point >= 0),
     Wallet_Balance NUMERIC(10,2) DEFAULT 0.00 CHECK (Wallet_Balance >= 0),
     Phone_No VARCHAR(15) NOT NULL,
-    Email_ID VARCHAR(50) NOT NULL,  -- Increased length for email
+    Email_ID VARCHAR(50) NOT NULL,
     Address VARCHAR(100) NOT NULL
 );
 
